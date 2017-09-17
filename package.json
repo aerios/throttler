@@ -1,0 +1,29 @@
+{
+  "name": "throttle",
+  "version": "1.0.0",
+  "description": "Simple backpressure wrapper for asynchronous function",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "tsc",
+    "test":"mocha -r ts-node/register test/**/*.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bluebird": "^3.5.11",
+    "@types/chai": "^4.0.4",
+    "@types/mocha": "^2.2.43",
+    "@types/node": "^8.0.28",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3",
+    "ts-loader": "^2.3.7",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.2",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0"
+  }
+}
