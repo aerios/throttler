@@ -6,7 +6,7 @@ This module achieve backpressure-like behaviour by wrapping the method / functio
 
 ## Installation
 ```
-npm install throttler --save
+npm install b-throttler --save
 ```
 
 ## How to use
