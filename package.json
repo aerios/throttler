@@ -1,12 +1,12 @@
 {
   "name": "b-throttler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple backpressure wrapper for asynchronous function",
   "main": "dist/index.js",
   "scripts": {
     "start": "webpack-dev-server",
     "build": "tsc",
-    "test":"mocha -r ts-node/register test/**/*.ts"
+    "test": "mocha -r ts-node/register test/**/*.ts"
   },
   "author": "",
   "license": "ISC",
