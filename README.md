@@ -9,7 +9,7 @@ This module achieve backpressure-like behaviour by wrapping the method / functio
 npm install throttler --save
 ```
 
-### How to use
+## How to use
 ```
 /*Preparation*/
 
