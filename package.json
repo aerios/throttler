@@ -1,5 +1,5 @@
 {
-  "name": "throttle",
+  "name": "b-throttler",
   "version": "1.0.0",
   "description": "Simple backpressure wrapper for asynchronous function",
   "main": "dist/index.js",

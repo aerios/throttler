@@ -13,7 +13,7 @@ npm install throttler --save
 ```
 /*Preparation*/
 
-let Throttler = require('throttler')
+let Throttler = require('b-throttler')
 let throttleInstance = new Throttler(10)
 let readFromFile = throttleInstance.Function((filePath) => {
     return new Promise((resolve, reject) => {
